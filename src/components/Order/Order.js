@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Order.css';
+// import classes from './Order.css';
 
 export default function order(props) {
 
