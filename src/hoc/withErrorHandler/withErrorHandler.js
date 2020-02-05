@@ -8,6 +8,7 @@ export default function withErrorHandler(WrappedComponent, axios) {
     state = {
       error: null,
     }
+  
 
     componentWillMount() {
       this.reqInterceptor = axios.interceptors.request.use(null, req => {
